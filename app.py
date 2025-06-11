@@ -25,5 +25,11 @@ def function1():
     b = float(input("Введите второе число: "))
     print(f"Результат: {a + b}")
 
+def function2():
+    print("Это функция 2 - Вычитание")
+    a = float(input("Введите первое число: "))
+    b = float(input("Введите второе число: "))
+    print(f"Результат: {a - b}")        
+
 if __name__ == "__main__":
     main()
