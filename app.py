@@ -19,5 +19,11 @@ def main():
     else:
         print("Неверный ввод")
 
+def function1():
+    print("Это функция 1 - Сложение")
+    a = float(input("Введите первое число: "))
+    b = float(input("Введите второе число: "))
+    print(f"Результат: {a + b}")
+
 if __name__ == "__main__":
     main()
